@@ -6,7 +6,7 @@ def roll_call_dwarves(array)
     new_dwarves << dwarf
   end
   half = new_dwarves.length / 2
-  puts new_dwarves[0..half]
+  puts new_dwarves[0...half]
 end
 binding.pry
 def summon_captain_planet(calls)
